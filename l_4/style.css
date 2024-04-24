@@ -1,0 +1,55 @@
+.div1{
+    background-color: aqua;
+}
+
+.div2{
+    margin-top: 30px;
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+.div2 img{
+    margin: 5px;
+}
+
+.div2 button{
+    height: 30px;
+    width: 150px;
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.div2 button:hover{
+    background-color: white;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+}
+
+.div3{
+    margin-top: 30px;
+    background-color: blueviolet;
+}
+
+.div3-event{
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(126, 247, 12);
+}
+
+.div3-event-button{
+    height: 30px;
+    width: 150px;
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}

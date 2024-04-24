@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, rgb(206, 253, 255), rgb(61, 216, 255));
+}
+
+.row{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(185, 169, 169, 0);
+}
+
+.save{
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 66, 209);
+    border-radius: 5px;
+    background: rgb(185, 255, 251);
+    color: rgb(0, 66, 209);
+    font-size: medium;
+}
+
+.save:hover{
+    background: rgb(0, 66, 209);
+    color: rgb(185, 255, 251);   
+}
+
+.para{
+    color: rgb(255, 0, 170);
+}
+
+.read{
+    margin: 10px 0px;
+    color: brown;
+}
+
+
+.count{
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 66, 209);
+    border-radius: 5px;
+    background: rgb(185, 255, 251);
+    color: rgb(0, 66, 209);
+    font-size: medium;
+}
+
+.count:hover{
+    background: rgb(0, 66, 209);
+    color: rgb(185, 255, 251);   
+}
+
+.stop{
+    margin-top: 20px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    background: rgb(252, 205, 205);
+    color: rgb(255, 0, 0);
+    font-size: medium;
+}
+
+.stop:hover{
+    background: rgb(255, 0, 0);
+    color: rgb(252, 205, 205);   
+}

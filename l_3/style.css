@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffd0be;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+
+table, td{
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 6, 43);
+    background-color: #EEF0E5;
+}
+
+td:hover {
+    background-color: #fc9e79;
+    text-align: center;
+}
+    
